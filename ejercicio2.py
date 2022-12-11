@@ -44,7 +44,6 @@ def juego(tablero):
         else:
             jugador = True
 
-#si en ninguno puee moverse 
 def puede_moverse(jugador, tabla):
     if jugador:
         posicion = tabla[0][1]
